@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Job Listing</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1 class="heading">Connectiva</h1>
+        <h2 class="heading2">Post Jobs</h2>
+    </header>
+    <form class="post-job-form">
+        <table>
+            <tr>
+                <td><label for="companyName">Company Name</label></td>
+                <td><input type="text" id="companyName" name="companyName" required></td>
+            </tr>
+            <tr>
+                <td><label for="jobTitle">Job Title</label></td>
+                <td><input type="text" id="jobTitle" name="jobTitle" required></td>
+            </tr>
+            <tr>
+                <td><label for="jobDescription">Job Description</label></td>
+                <td><textarea id="jobDescription" name="jobDescription" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Post Job" class="post-job-btn"></td>
+            </tr>
+        </table>
+    </form>
+    <nav>
+        <a href="index.html">Back to Home</a>
+    </nav>
+</body>
+</html>
